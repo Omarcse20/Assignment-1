@@ -1,0 +1,23 @@
+*{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+/* body{
+    width:1600px;
+} */
+.container{
+    max-width:1320px;
+    margin:0px auto;
+}
+.banner{
+    background-image: url("resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+}
+.banner p{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400px;
+}
