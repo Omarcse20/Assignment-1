@@ -6,7 +6,7 @@
     width:1600px;
 } */
 .container{
-    max-width:1320px;
+    max-width:82.5%;
     margin:0px auto;
 }
 .banner{
@@ -20,4 +20,10 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400px;
+}
+.banner h1{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
 }
