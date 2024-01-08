@@ -182,3 +182,80 @@ font-weight: 500;
     font-weight: 400;
     line-height: 32px; 
 }
+.offer h3{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.offer h1{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.offer span{
+    color: #F00;
+}
+.offer p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+}
+.overlap{
+    position: relative;
+    height: 663px;
+    margin-top: 50px;
+}
+.girl{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+.discount{
+    position: absolute;
+    top:80px;
+    right:280px;
+}
+.red{
+    position: absolute;
+    top:433px;
+}
+.box{
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+}
+.portfolio{
+    margin-top: 120px;
+}
+.portfolio h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio h1{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.portfolio p{
+    margin-top: 20px;
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.portfolio img{
+    opacity:0.5;
+}
+.portfolio img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
