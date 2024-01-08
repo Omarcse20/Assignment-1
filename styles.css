@@ -1,11 +1,15 @@
 *{
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
 }
+/* styling container  */
 .container{
-    max-width:1320px;
-    margin:50px auto 0px;
+    max-width: 1320px;
+    margin: 50px auto 0px;
+    width: 82.5%;
 }
+/* styling background of header */
 .NY{
     max-width: 1320px;
     height: 600px;
@@ -14,7 +18,7 @@
     text-align: center;
     border-radius: 16px;
 }
-
+/* styling header contents */
 .banner p{
     padding-top: 177px;
     color: #FFF;
@@ -28,7 +32,9 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    font-family: Merriweather;
 }
+/* styling of 1st section of main */
 .offers{
     margin-top: 120px;
     text-align: center;
@@ -56,8 +62,10 @@
 .offers img{
     margin-top: 48px;
 }
+/* styling 2nd section */
 .chill{
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%)
+    ,url("resources/Vectorrr.png");
     background-repeat: no-repeat;
     max-width: 1320px;
     height: 600px;
@@ -68,7 +76,7 @@
 } 
 .chill img{
     position:absolute;
-    right:138px;
+    right: 138px;
     top: 69px;
 }
 .welcome{
@@ -87,28 +95,27 @@
 }
 .welcome p{
     color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 .welcome button{
     position: absolute;
     background-color: transparent;
     border: none;
-    cursor:pointer;
-    left:158px;
+    cursor: pointer;
+    left: 158px;
     top: 440px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
 }
+/* styling 3rd section */
 .location{
     margin-top: 120px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -142,29 +149,27 @@ line-height: 30px;
     font-weight: 700;
     cursor: pointer;
 }
+/* styling 4th section */
 .soon{
     display: flex;
     align-items: center;
     margin-top: 100px;
 }
 .new{
-    width:400px;
+    width: 400px;
 }
 .new h3{
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 .new h1{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
-
 }
 .new p{
     color: rgba(7, 2, 17, 0.60);
@@ -175,7 +180,7 @@ font-weight: 500;
 }
 .circle{
     border: 15px solid #F00;
-    border-radius:100%;
+    border-radius: 100%;
     padding: 40px;
     margin-left: 60px;
 }
@@ -196,22 +201,23 @@ font-weight: 500;
     font-weight: 400;
     line-height: 32px; 
 }
+/* styling 5th section */
 .offer{
     text-align: center;
     margin-top: 120px;
 }
 .offer h3{
-color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 .offer h1{
     margin: 16px;
-color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
 }
 .offer p{
     margin-top: 28px;
@@ -221,10 +227,10 @@ font-weight: 900;
 }
 .offer p{
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
 }
 .overlap{
     position: relative;
@@ -234,22 +240,23 @@ line-height: 32px;
 .girl{
     position: absolute;
     right: 0px;
-    top:0px;
+    top: 0px;
 }
 .discount{
     position: absolute;
-    top:80px;
-    right:280px;
+    top: 80px;
+    right: 280px;
 }
 .red{
     position: absolute;
-    top:433px;
+    top: 433px;
 }
 .box{
     position: absolute;
-    left:0px;
+    left: 0px;
     bottom: 0px;
 }
+/* styling 6th section */
 .portfolio{
     margin-top: 120px;
 }
@@ -260,27 +267,38 @@ line-height: 32px;
     font-weight: 500;
 }
 .portfolio h1{
-color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 .portfolio p{
     margin-top: 20px;
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.r1 {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.r2{
+    display: flex;
+    gap: 24px;
 }
 .portfolio img{
-    opacity:0.5;
+    opacity: 0.5;
 }
 .portfolio img:hover{
     opacity: 1;
     cursor: pointer;
 }
+/* styling 7th section */
 .subscribe{
     margin-top: 120px;
     text-align: center;
@@ -300,19 +318,19 @@ line-height: 32px;
 .subscribe p{
     margin-top: 22px;
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
 }
 .mail input[type="email"] {
     width: 440px;
     height: 70px;
-    border:none;
-    border-top-left-radius:50px; 
-    border-bottom-left-radius:50px; 
+    border: none;
+    border-top-left-radius: 50px; 
+    border-bottom-left-radius: 50px; 
     padding-left: 30px;
   }
 .mail{
@@ -322,20 +340,21 @@ line-height: 32px;
     margin: 48px auto 80px;
 }
 .mail button {
-    width:210px;
-    padding:10px;
+    width: 210px;
+    padding: 10px;
     height: 70px;
     color:white;
     background-color:red; 
-    border:none; 
-    border-top-right-radius:50px; 
-    border-bottom-right-radius:50px; 
+    border: none; 
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px; 
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
     cursor: pointer;
 }
+/* styling footer */
 .ending{
     background: #070211;
     margin-top: 120px;
@@ -348,7 +367,7 @@ line-height: 32px;
     padding-top: 120px;
 }
 .contact img{
-    margin-right:16px;
+    margin-right: 16px;
 }
 .ending p{
     color: #FFF;
@@ -358,16 +377,16 @@ line-height: 32px;
     line-height: 40px;
 }
 .links{
-    margin:0px auto;
-   width: 350px;
-   display: flex;
-   justify-content: space-between;
+    margin: 0px auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
 }
 hr{
     width: 1320px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     height: 1px;
-    margin:50px auto;
+    margin: 50px auto;
 }
 .closing{
     width:1320px;
